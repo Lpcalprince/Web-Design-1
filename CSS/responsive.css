@@ -1,0 +1,169 @@
+
+/* MEDIA QURRY */
+@media (max-width:1300px){
+    .body{
+    background: green;
+}
+.text-big{
+    font-size: 30px;
+}
+
+.text-small{
+    font-size: 15px;
+}
+.section{
+    max-width: 80%;
+}
+
+}
+
+
+@media (max-width:1000px){
+    .box-main{
+        max-width: 90%;
+    }
+    .text-big{
+        font-size: 21px;
+    }
+    .paras{
+        margin-top: 15px;
+    }
+    
+    .text-small{
+        font-size: 12px;
+    }
+    .section{
+        max-width: 95%;
+    }
+    .paras{
+        padding: 10px;
+    }
+
+    .leftNav{
+        width: 70%;
+         display: flex;
+         align-items: center;
+     }
+    .rightNav{
+        width: 40%;
+    }
+    .secondHalf img{
+        height: 235px;
+        width: 235px;
+    }
+    #search {
+        padding: 1px;
+        font-size: 14px;
+        border: 2px solid white;
+    }
+
+    .thumbnail img{
+        height: 50%;
+        width: 200px;
+
+    }
+    .text-footer{
+        font-size: 11px;
+    }
+
+}
+@media (max-width:690px){
+    .navbar{
+        flex-direction: column;
+        height: 300px;
+    }
+    .leftNav{
+        flex-direction: column;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .rightNav{
+        width: 40%;
+        text-align: center;
+    }
+    #search{
+        width: 40%;
+    }
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
+
+@media (max-width:550px){
+    .box-main{
+        max-width: 80%;
+        flex-direction: column-reverse;
+    }
+    .h-nav-resp{
+       height: 35px;
+    }
+    .line{
+        width: 30px;
+        background-color: white;
+        height: 1px;
+        margin: 2px 2px;
+        border: 1px solid #08efaf;
+        width: 20px;
+    }
+
+    .secondHalf img{
+        height: 135px;
+        width: 135px;
+    }
+    .text-big{
+        font-size: 16px;
+    }
+    
+    .text-small{
+        font-size: 10px;
+    }
+
+    .text-footer{
+        font-size: 7px;
+    }
+    .burger{
+        display: block;
+ }
+ .section{
+     flex-direction: column;
+ }
+.text-center{
+    font-size: 25px;
+}
+.form{
+    max-width: 85%;
+}
+.form-input {
+    margin: 10px;
+    padding:2px 5px;
+    font-size: 12px;
+}    
+
+}
+@media (max-width:338px){
+    .box-main {
+        max-width: 100%;
+}
+.secondHalf img{
+    height: 100px;
+    width: 100px;
+}
+.thumbnail{
+    max-height: 200px;
+}
+.paras{
+    padding-top: 40px;
+}
+.btn{
+    padding: 1px 3px;
+    margin: 5px 0px;
+}
+}
